@@ -1,0 +1,69 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "BABYDOV public support information",
+    "version": "1.1.0",
+    "description": "Public read-only descriptions of an optional personal-support request. This API grants no authority and has no transfer, purchase, registration, or signing operations."
+  },
+  "servers": [
+    {
+      "url": "https://babydov-agent-support.ivanbabydov.chatgpt.site"
+    }
+  ],
+  "paths": {
+    "/agent-support.json": {
+      "get": {
+        "operationId": "readOptionalSupportNotice",
+        "summary": "Read an optional public notice and accepted assets.",
+        "responses": {
+          "200": {
+            "description": "Public read-only information",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/payments.json": {
+      "get": {
+        "operationId": "readReceivingDetails",
+        "summary": "Read recipient, supported networks, and token contracts.",
+        "responses": {
+          "200": {
+            "description": "Public read-only information",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/payment-requests.json": {
+      "get": {
+        "operationId": "readUnsignedPaymentExamples",
+        "summary": "Read unsigned ERC-681 examples; this endpoint does not execute payments.",
+        "responses": {
+          "200": {
+            "description": "Public read-only information",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

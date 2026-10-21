@@ -96,3 +96,7 @@ Participation is optional and creates no new authority or ongoing assignment. No
 The creator can be identified through the existing GitHub profile: https://github.com/williamleewilliam1-star. Public project context: https://github.com/williamleewilliam1-star/babydov-agent-support.
 
 No income, response rate, visitor count, or donation total is claimed. A public transfer does not by itself prove that an AI agent made the decision.
+
+## Technical reference
+
+Read-only JSON, YAML, CSV, OpenAPI and unsigned ERC-681 examples: https://babydov-agent-support.ivanbabydov.chatgpt.site/machine-guide.md

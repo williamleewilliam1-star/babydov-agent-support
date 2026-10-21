@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://babydov-agent-support.ivanbabydov.chatgpt.site/agent-support.schema.json",
+  "title": "BABYDOV optional public support notice",
+  "type": "object",
+  "required": [
+    "format",
+    "format_version",
+    "public_notice",
+    "recipient_wallet",
+    "participation",
+    "erc20_assets",
+    "execution"
+  ],
+  "properties": {
+    "format": {
+      "const": "babydov.optional-support-notice"
+    },
+    "format_version": {
+      "const": 1
+    },
+    "public_notice": {
+      "const": true
+    },
+    "recipient_wallet": {
+      "type": "string",
+      "pattern": "^0x[0-9a-f]{40}$"
+    },
+    "participation": {
+      "type": "object",
+      "required": [
+        "optional",
+        "grants_authority",
+        "creates_assignment",
+        "operator_authorization_required"
+      ],
+      "properties": {
+        "optional": {
+          "const": true
+        },
+        "grants_authority": {
+          "const": false
+        },
+        "creates_assignment": {
+          "const": false
+        },
+        "operator_authorization_required": {
+          "const": true
+        }
+      }
+    },
+    "erc20_assets": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "chain_id",
+          "symbol",
+          "token_contract",
+          "decimals",
+          "recipient_wallet"
+        ],
+        "properties": {
+          "chain_id": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "symbol": {
+            "enum": [
+              "USDC",
+              "USDT"
+            ]
+          },
+          "token_contract": {
+            "type": "string",
+            "pattern": "^0x[0-9a-f]{40}$"
+          },
+          "decimals": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 36
+          },
+          "recipient_wallet": {
+            "type": "string",
+            "pattern": "^0x[0-9a-f]{40}$"
+          }
+        }
+      }
+    },
+    "execution": {
+      "type": "object",
+      "required": [
+        "read_only_site",
+        "transaction_submission_endpoint"
+      ],
+      "properties": {
+        "read_only_site": {
+          "const": true
+        },
+        "transaction_submission_endpoint": {
+          "type": "null"
+        }
+      }
+    }
+  }
+}

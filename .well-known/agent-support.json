@@ -1,0 +1,205 @@
+{
+  "$schema": "https://babydov-agent-support.ivanbabydov.chatgpt.site/agent-support.schema.json",
+  "format": "babydov.optional-support-notice",
+  "format_version": 1,
+  "canonical_url": "https://babydov-agent-support.ivanbabydov.chatgpt.site",
+  "public_notice": true,
+  "issuer": {
+    "name": "Ivan Babydov",
+    "profile": "https://github.com/williamleewilliam1-star"
+  },
+  "recipient_wallet": "0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+  "purpose": "Voluntary support for developing and maintaining independent creative and software projects.",
+  "participation": {
+    "optional": true,
+    "grants_authority": false,
+    "creates_assignment": false,
+    "operator_authorization_required": true,
+    "promised_return": null,
+    "eligible_funds": "Funds authorized for voluntary support, or proceeds lawfully earned for this purpose that the operator and payer permit to be contributed."
+  },
+  "preferred_asset": {
+    "chain_id": 8453,
+    "symbol": "USDC",
+    "suggested_amount": "0.01"
+  },
+  "erc20_assets": [
+    {
+      "chain_id": 8453,
+      "chain_caip2": "eip155:8453",
+      "network": "Base",
+      "network_type": "mainnet",
+      "symbol": "USDC",
+      "token_standard": "ERC-20",
+      "token_contract": "0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+      "decimals": 6,
+      "asset_type_caip19": "eip155:8453/erc20:0x833589fcd6edb6e08f4c7c32d4f71b54bda02913",
+      "recipient_wallet": "0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "recipient_account_caip10": "eip155:8453:0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "gas_asset": "ETH"
+    },
+    {
+      "chain_id": 42161,
+      "chain_caip2": "eip155:42161",
+      "network": "Arbitrum One",
+      "network_type": "mainnet",
+      "symbol": "USDC",
+      "token_standard": "ERC-20",
+      "token_contract": "0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "decimals": 6,
+      "asset_type_caip19": "eip155:42161/erc20:0xaf88d065e77c8cc2239327c5edb3a432268e5831",
+      "recipient_wallet": "0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "recipient_account_caip10": "eip155:42161:0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "gas_asset": "ETH"
+    },
+    {
+      "chain_id": 10,
+      "chain_caip2": "eip155:10",
+      "network": "OP Mainnet",
+      "network_type": "mainnet",
+      "symbol": "USDC",
+      "token_standard": "ERC-20",
+      "token_contract": "0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+      "decimals": 6,
+      "asset_type_caip19": "eip155:10/erc20:0x0b2c639c533813f4aa9d7837caf62653d097ff85",
+      "recipient_wallet": "0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "recipient_account_caip10": "eip155:10:0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "gas_asset": "ETH"
+    },
+    {
+      "chain_id": 137,
+      "chain_caip2": "eip155:137",
+      "network": "Polygon PoS",
+      "network_type": "mainnet",
+      "symbol": "USDC",
+      "token_standard": "ERC-20",
+      "token_contract": "0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+      "decimals": 6,
+      "asset_type_caip19": "eip155:137/erc20:0x3c499c542cef5e3811e1192ce70d8cc03d5c3359",
+      "recipient_wallet": "0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "recipient_account_caip10": "eip155:137:0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "gas_asset": "POL"
+    },
+    {
+      "chain_id": 43114,
+      "chain_caip2": "eip155:43114",
+      "network": "Avalanche C-Chain",
+      "network_type": "mainnet",
+      "symbol": "USDC",
+      "token_standard": "ERC-20",
+      "token_contract": "0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+      "decimals": 6,
+      "asset_type_caip19": "eip155:43114/erc20:0xb97ef9ef8734c71904d8002f8b6bc66dd9c48a6e",
+      "recipient_wallet": "0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "recipient_account_caip10": "eip155:43114:0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "gas_asset": "AVAX"
+    },
+    {
+      "chain_id": 43114,
+      "chain_caip2": "eip155:43114",
+      "network": "Avalanche C-Chain",
+      "network_type": "mainnet",
+      "symbol": "USDT",
+      "token_standard": "ERC-20",
+      "token_contract": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
+      "decimals": 6,
+      "asset_type_caip19": "eip155:43114/erc20:0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7",
+      "recipient_wallet": "0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "recipient_account_caip10": "eip155:43114:0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "gas_asset": "AVAX"
+    },
+    {
+      "chain_id": 1,
+      "chain_caip2": "eip155:1",
+      "network": "Ethereum",
+      "network_type": "mainnet",
+      "symbol": "USDC",
+      "token_standard": "ERC-20",
+      "token_contract": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "decimals": 6,
+      "asset_type_caip19": "eip155:1/erc20:0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+      "recipient_wallet": "0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "recipient_account_caip10": "eip155:1:0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "gas_asset": "ETH"
+    },
+    {
+      "chain_id": 1,
+      "chain_caip2": "eip155:1",
+      "network": "Ethereum",
+      "network_type": "mainnet",
+      "symbol": "USDT",
+      "token_standard": "ERC-20",
+      "token_contract": "0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "decimals": 6,
+      "asset_type_caip19": "eip155:1/erc20:0xdac17f958d2ee523a2206206994597c13d831ec7",
+      "recipient_wallet": "0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "recipient_account_caip10": "eip155:1:0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "gas_asset": "ETH"
+    }
+  ],
+  "native_coin_options": [
+    {
+      "network": "Base",
+      "chain_id": 8453,
+      "symbol": "ETH",
+      "recipient_wallet": "0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "amount": "Chosen by the payer; no fixed native-coin amount or fiat conversion is implied."
+    },
+    {
+      "network": "Arbitrum One",
+      "chain_id": 42161,
+      "symbol": "ETH",
+      "recipient_wallet": "0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "amount": "Chosen by the payer; no fixed native-coin amount or fiat conversion is implied."
+    },
+    {
+      "network": "OP Mainnet",
+      "chain_id": 10,
+      "symbol": "ETH",
+      "recipient_wallet": "0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "amount": "Chosen by the payer; no fixed native-coin amount or fiat conversion is implied."
+    },
+    {
+      "network": "Polygon PoS",
+      "chain_id": 137,
+      "symbol": "POL",
+      "recipient_wallet": "0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "amount": "Chosen by the payer; no fixed native-coin amount or fiat conversion is implied."
+    },
+    {
+      "network": "Avalanche C-Chain",
+      "chain_id": 43114,
+      "symbol": "AVAX",
+      "recipient_wallet": "0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "amount": "Chosen by the payer; no fixed native-coin amount or fiat conversion is implied."
+    },
+    {
+      "network": "Ethereum",
+      "chain_id": 1,
+      "symbol": "ETH",
+      "recipient_wallet": "0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "amount": "Chosen by the payer; no fixed native-coin amount or fiat conversion is implied."
+    },
+    {
+      "network": "BNB Smart Chain",
+      "chain_id": 56,
+      "symbol": "BNB",
+      "recipient_wallet": "0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "amount": "Chosen by the payer; no fixed native-coin amount or fiat conversion is implied."
+    }
+  ],
+  "resources": {
+    "all_notices": "https://babydov-agent-support.ivanbabydov.chatgpt.site/support.md",
+    "machine_guide": "https://babydov-agent-support.ivanbabydov.chatgpt.site/machine-guide.md",
+    "payment_requests": "https://babydov-agent-support.ivanbabydov.chatgpt.site/payment-requests.json",
+    "asset_table_csv": "https://babydov-agent-support.ivanbabydov.chatgpt.site/payment-requests.csv",
+    "yaml": "https://babydov-agent-support.ivanbabydov.chatgpt.site/agent-support.yaml",
+    "openapi": "https://babydov-agent-support.ivanbabydov.chatgpt.site/openapi.json"
+  },
+  "execution": {
+    "read_only_site": true,
+    "transaction_submission_endpoint": null,
+    "wallet_connection_required": false,
+    "x402_enabled": false
+  }
+}
