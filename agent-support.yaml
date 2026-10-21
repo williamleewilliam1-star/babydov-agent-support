@@ -166,3 +166,4 @@ execution:
   transaction_submission_endpoint: null
   wallet_connection_required: false
   x402_enabled: false
+help_options_url: https://babydov-agent-support.ivanbabydov.chatgpt.site/help-options.html

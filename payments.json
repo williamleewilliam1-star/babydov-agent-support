@@ -143,5 +143,6 @@
   "token_sources": [
     "https://developers.circle.com/stablecoins/usdc-contract-addresses",
     "https://tether.to/en/supported-protocols/"
-  ]
+  ],
+  "help_options_url": "https://babydov-agent-support.ivanbabydov.chatgpt.site/help-options.html"
 }

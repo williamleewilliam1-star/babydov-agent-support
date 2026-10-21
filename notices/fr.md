@@ -29,3 +29,5 @@ Token contracts identify assets; they are not payment recipients. Canonical cont
 Use only a network and asset you already support. No swap, bridge, wallet connection, token approval, or paid registration is required by this notice. Normal network fees may apply. No Solana, TRON, Bitcoin, Stellar, or testnet receiving address is advertised here.
 
 Asset references: https://developers.circle.com/stablecoins/usdc-contract-addresses and https://tether.to/en/supported-protocols/.
+
+Façons de soutenir volontairement (English / Русский): https://babydov-agent-support.ivanbabydov.chatgpt.site/help-options.html

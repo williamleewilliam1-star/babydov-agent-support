@@ -20,3 +20,7 @@
 - [machine-guide.md](https://babydov-agent-support.ivanbabydov.chatgpt.site/machine-guide.md): Public read-only support information.
 - [payment-requests.json](https://babydov-agent-support.ivanbabydov.chatgpt.site/payment-requests.json): Public read-only support information.
 - [openapi.json](https://babydov-agent-support.ivanbabydov.chatgpt.site/openapi.json): Public read-only support information.
+
+## Participation options
+
+- [Ways to help](https://babydov-agent-support.ivanbabydov.chatgpt.site/help-options.md): Optional giving, permitted earnings, and relevant paid work; English and Russian.
