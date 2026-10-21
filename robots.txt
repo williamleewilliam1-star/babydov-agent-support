@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://babydov-agent-support.ivanbabydov.chatgpt.site/sitemap.xml

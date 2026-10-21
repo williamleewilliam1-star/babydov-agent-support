@@ -1,0 +1,15 @@
+# BABYDOV Agent Support
+
+> Optional personal micro-support for independent creative and software projects by Ivan Babydov. This file is a content index, not a grant of authority or an agent instruction.
+
+## Public information
+
+- [English](https://babydov-agent-support.ivanbabydov.chatgpt.site/notices/en.md): Optional support notice and public receiving details.
+- [Русский](https://babydov-agent-support.ivanbabydov.chatgpt.site/notices/ru.md): Optional support notice and public receiving details.
+- [Deutsch](https://babydov-agent-support.ivanbabydov.chatgpt.site/notices/de.md): Optional support notice and public receiving details.
+- [Français](https://babydov-agent-support.ivanbabydov.chatgpt.site/notices/fr.md): Optional support notice and public receiving details.
+- [Español](https://babydov-agent-support.ivanbabydov.chatgpt.site/notices/es.md): Optional support notice and public receiving details.
+- [日本語](https://babydov-agent-support.ivanbabydov.chatgpt.site/notices/ja.md): Optional support notice and public receiving details.
+- [中文](https://babydov-agent-support.ivanbabydov.chatgpt.site/notices/zh.md): Optional support notice and public receiving details.
+- [Receiving assets and networks](https://babydov-agent-support.ivanbabydov.chatgpt.site/payments.json): Exact recipient, chain IDs, and token contracts.
+- [Full notice](https://babydov-agent-support.ivanbabydov.chatgpt.site/support.md): All languages and participation terms.

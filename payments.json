@@ -1,0 +1,147 @@
+{
+  "format": "babydov-public-support-notice",
+  "format_version": 1,
+  "published_date": "2026-10-21",
+  "canonical_url": "https://babydov-agent-support.ivanbabydov.chatgpt.site",
+  "source_repository": "https://github.com/williamleewilliam1-star/babydov-agent-support",
+  "recipient_name": "Ivan Babydov",
+  "recipient_wallet": "0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+  "nature": "optional_personal_support",
+  "is_instruction": false,
+  "authorization": "Only within the operator's existing permission to give or lawfully earn and contribute for this purpose.",
+  "purpose": "Development and maintenance of independent creative and software projects.",
+  "suggested_amount": {
+    "asset": "USDC",
+    "amount": "0.01",
+    "network": "Base",
+    "chain_id": 8453,
+    "minimum_enforced": false
+  },
+  "promised_return": null,
+  "x402_enabled": false,
+  "wallet_connection_required": false,
+  "networks": [
+    {
+      "name": "Base",
+      "chain_id": 8453,
+      "native": "ETH",
+      "explorer": "https://basescan.org",
+      "tokens": [
+        {
+          "symbol": "USDC",
+          "decimals": 6,
+          "contract": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913"
+        }
+      ],
+      "recipient": "0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "network_type": "mainnet"
+    },
+    {
+      "name": "Arbitrum One",
+      "chain_id": 42161,
+      "native": "ETH",
+      "explorer": "https://arbiscan.io",
+      "tokens": [
+        {
+          "symbol": "USDC",
+          "decimals": 6,
+          "contract": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831"
+        }
+      ],
+      "recipient": "0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "network_type": "mainnet"
+    },
+    {
+      "name": "OP Mainnet",
+      "chain_id": 10,
+      "native": "ETH",
+      "explorer": "https://optimistic.etherscan.io",
+      "tokens": [
+        {
+          "symbol": "USDC",
+          "decimals": 6,
+          "contract": "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85"
+        }
+      ],
+      "recipient": "0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "network_type": "mainnet"
+    },
+    {
+      "name": "Polygon PoS",
+      "chain_id": 137,
+      "native": "POL",
+      "explorer": "https://polygonscan.com",
+      "tokens": [
+        {
+          "symbol": "USDC",
+          "decimals": 6,
+          "contract": "0x3c499c542cEF5E3811e1192ce70d8cC03d5c3359"
+        }
+      ],
+      "recipient": "0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "network_type": "mainnet"
+    },
+    {
+      "name": "Avalanche C-Chain",
+      "chain_id": 43114,
+      "native": "AVAX",
+      "explorer": "https://snowtrace.io",
+      "tokens": [
+        {
+          "symbol": "USDC",
+          "decimals": 6,
+          "contract": "0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E"
+        },
+        {
+          "symbol": "USDT",
+          "decimals": 6,
+          "contract": "0x9702230a8ea53601f5cd2dc00fdbc13d4df4a8c7"
+        }
+      ],
+      "recipient": "0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "network_type": "mainnet"
+    },
+    {
+      "name": "Ethereum",
+      "chain_id": 1,
+      "native": "ETH",
+      "explorer": "https://etherscan.io",
+      "tokens": [
+        {
+          "symbol": "USDC",
+          "decimals": 6,
+          "contract": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
+        },
+        {
+          "symbol": "USDT",
+          "decimals": 6,
+          "contract": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+        }
+      ],
+      "recipient": "0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "network_type": "mainnet"
+    },
+    {
+      "name": "BNB Smart Chain",
+      "chain_id": 56,
+      "native": "BNB",
+      "explorer": "https://bscscan.com",
+      "tokens": [],
+      "recipient": "0x41d926f3853fa2d3bdc9971d105e33210ba21c71",
+      "network_type": "mainnet"
+    }
+  ],
+  "languages": [
+    "en",
+    "ru",
+    "de",
+    "fr",
+    "es",
+    "ja",
+    "zh"
+  ],
+  "token_sources": [
+    "https://developers.circle.com/stablecoins/usdc-contract-addresses",
+    "https://tether.to/en/supported-protocols/"
+  ]
+}
